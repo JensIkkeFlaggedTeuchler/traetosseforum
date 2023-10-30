@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>0efe3b4e-28f7-49ee-95b5-aef2fcc341a9</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.13" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.13" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="7.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="7.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="7.0.12" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.0.3" />
+  </ItemGroup>
+
+</Project>
